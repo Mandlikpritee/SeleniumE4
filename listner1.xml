@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+
+<listener class-name="com.crm.listners.DwsExtentReport.class"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BAtchExecution.Testcase4"/>
+      <class name="BAtchExecution.Testcase5"/>
+      <class name="BAtchExecution.testcase6"/>
+      <class name="BAtchExecution.Testcase1"/>
+      <class name="BAtchExecution.Testcase2"/>
+      <class name="BAtchExecution.TEstcase3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
